@@ -1,1 +1,31 @@
-config.py
+.git/
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Playwright MCP
+.playwright-mcp/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Backend runtime data (uploaded files, vector store)
+backend/data/
+
+# Node
+node_modules/
+dist/
+build/
+.swc/
